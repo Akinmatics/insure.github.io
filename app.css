@@ -1,0 +1,57 @@
+body,h3{
+    font-family: 'Karla', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 400, 700;
+    font-size: 16px;
+}
+h1,h2,h6{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+#bg {
+    background-image: url(bg/bg-pattern-intro-right-desktop.svg), url(bg/bg-pattern-intro-left-desktop.svg),
+                    url(image/image-intro-desktop.jpg ) ;
+    background-color: hsl(273, 4%, 51%);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 550px, 200px, 500px;
+    background-position: right top, left bottom, right bottom;
+    padding-bottom: 300px;
+    padding-top: 50px;
+    color: white;
+}
+
+.footerrow1{
+    margin-top: 100px;
+}
+
+#row1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+
+.row3 {
+    color: white;
+    background-color: hsl(270, 9%, 17%);
+    margin-top: 50px;
+}
+
+.footer{
+    background-color: hsl(0, 0%, 98%);
+    padding: 70px;
+    padding-top: 10px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.imagy {
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    padding-right: 100px;
+}
+#content{
+    text-align: center;
+}
